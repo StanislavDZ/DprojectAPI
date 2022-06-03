@@ -32,10 +32,10 @@ public class MainPage {
         shopSaleButton.click();
     }
 
-    @Step("Перейти в корзину")
-    public void clickYes() {
-        cartButton.click();
-    }
+//    @Step("Перейти в корзину")
+//    public void clickYes() {
+//        cartButton.click();
+//    }
 
     @Step("Кликнуть на 'Коллекционные минералы'")
     public void catalogButtonClick() {

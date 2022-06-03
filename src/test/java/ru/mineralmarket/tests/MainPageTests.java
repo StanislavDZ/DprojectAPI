@@ -64,4 +64,20 @@ public class MainPageTests extends TestBase {
         apiAddCart.addToCartButton472868();
     }
 
+    @Test
+    @Story("Бэк API МинералМаркет")
+    @Feature("API тесты mineralmarket.ru")
+    @DisplayName("Добавление корзину товара 468469")
+    public void addToCartButton468469() {
+        apiAddCart.addToCartButton468469();
+    }
+
+    @Test
+    @Story("Бэк API МинералМаркет")
+    @Feature("API тесты mineralmarket.ru")
+    @DisplayName("Добавление корзину товара 468469")
+    public void addToCartButton459300() {
+        apiAddCart.addToCartButton459300();
+    }
+
 }

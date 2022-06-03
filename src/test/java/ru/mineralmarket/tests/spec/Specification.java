@@ -17,7 +17,7 @@ import static ru.mineralmarket.helpers.AllureRestAssuredFilter.customLogFilter;
 public class Specification {
 
     public static final TestsConfig config = ConfigFactory.create(TestsConfig.class, System.getProperties());
-    public ApiAddCart apiSteps = new ApiAddCart();
+    public ApiAddCart ApiAddCart = new ApiAddCart();
 
     public static RequestSpecification request = with()
             .filter(customLogFilter().withCustomTemplates())

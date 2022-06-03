@@ -26,7 +26,4 @@ public interface TestsConfig extends Config {
     @DefaultValue("false")
     boolean remote();
 
-    String browserMobileView();
-    String remoteDriverUrl();
-    String videoStorage();
 }
