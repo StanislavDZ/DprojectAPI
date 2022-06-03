@@ -1,0 +1,9 @@
+java  "-DprojectName=Local run" "-Denv=https://qa.guru" "-DreportLink=https://no.link/" "-Dcomm=Any comment here" "-Dconfig.file=./notifications/telegram_config.json" -jar ./notifications/allure-notifications-3.1.2.jar
+
+java  \
+"-DprojectName=${PROJECT_NAME}" \
+"-Denv=${ENVIRONMENT}" \
+"-DreportLink=${BUILD_URL}" \
+"-Dcomm=${COMMENT}" \
+"-Dconfig.file=./notifications/telegram_config.json" \
+-jar ./notifications/allure-notifications-3.1.2.jar
