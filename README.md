@@ -81,7 +81,7 @@ gradle clean test
 
 ### <img width="3%" title="Telegram" src="img/logo/Telegram.svg"> Telegram
 
-Настроена отправка оточета ботом в Telegram
+Настроена отправка отчета ботом в Telegram
 
 <img src="img/screen/Bot.jpg" alt="Telegram"/>
 
