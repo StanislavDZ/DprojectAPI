@@ -1,8 +1,8 @@
-package ru.mineralmarket.pages;
+package ru.mineralmarket.models;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import ru.mineralmarket.tests.spec.Specification;
+import ru.mineralmarket.spec.Specification;
 
 import static io.restassured.RestAssured.given;
 import static ru.mineralmarket.listeners.CustomAllureListener.withCustomTemplates;

@@ -1,6 +1,5 @@
 package ru.mineralmarket.tests;
 
-import com.codeborne.selenide.Browsers;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import org.aeonbits.owner.ConfigFactory;
@@ -11,7 +10,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import ru.mineralmarket.config.TestsConfig;
 import ru.mineralmarket.helpers.Attach;
-import ru.mineralmarket.pages.ApiAddCart;
+import ru.mineralmarket.models.ApiAddCart;
 import ru.mineralmarket.pages.MainPage;
 import ru.mineralmarket.pages.SearchPage;
 
