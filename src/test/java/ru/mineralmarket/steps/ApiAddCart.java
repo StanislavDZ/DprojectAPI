@@ -1,4 +1,4 @@
-package ru.mineralmarket.models;
+package ru.mineralmarket.steps;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
@@ -35,6 +35,7 @@ public class ApiAddCart {
                 .extract().response();
 
     }
+
     @Step("Добавление в корзину VIP 459300 через Api")
     public Response addToCartButton459300() {
         return given()
@@ -47,7 +48,4 @@ public class ApiAddCart {
                 .extract().response();
 
     }
-
-
-
 }

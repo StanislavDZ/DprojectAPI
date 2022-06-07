@@ -8,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.aeonbits.owner.ConfigFactory;
 import ru.mineralmarket.config.TestsConfig;
-import ru.mineralmarket.models.ApiAddCart;
+import ru.mineralmarket.steps.ApiAddCart;
 
 import static io.restassured.RestAssured.with;
 import static ru.mineralmarket.helpers.AllureRestAssuredFilter.customLogFilter;

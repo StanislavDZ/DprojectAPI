@@ -9,11 +9,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MainPage {
     SelenideElement
-            promoButton = $x("//*[@id=\"shiny_new_menu\"]/li[2]/a"),
-            shopSaleButton = $x("//*[@id=\"shiny_new_menu\"]/li[1]/a"),
-            cartButton = $x("//*[@id=\"cart_block\"]"),
-            catalogCollectionsButton = $x("//*[@id=\"category_676\"]/a"),
-            search = $x("//*[@id=\"search_query_top\"]");
+            promoButton = $("#shiny_new_menu").$("li", 1).$("a"),
+            shopSaleButton = $("#shiny_new_menu").$("li", 0).$("a"),
+            cartButton = $("#cart_block"),
+            catalogCollectionsButton = $("#category_676").$("a"),
+            search = $("#search_query_top");
 
 
     @Step("Открыть главную страницу.")
